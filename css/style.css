@@ -11,7 +11,7 @@
 
   /* font size */
   --default-fontSize: 1.15rem;
-  --title-fontSize: 5rem;
+  --title-fontSize: 3rem;
   --menu-item-fontSize: var(--default-fontSize);
 
   /* padding */
@@ -21,13 +21,13 @@
 
   /* Font Family */
   --primary-font: "Barlow", sans-serif;
-  --secondary-font: "Fraunces", serif;
+  --secondary-font: "Fraunces", sans-serif;
 
   /* Border */
   --default-border-radius: 30px;
 }
 
-/* ---------------- Reset all style --------*/
+/* ---------------- Reset all styles --------*/
 * {
   margin: 0;
   padding: 0;
@@ -110,6 +110,8 @@ li {
   font-size: var(--title-fontSize);
   color: var(--white-color);
   font-weight: 900;
+  text-transform: uppercase;
   font-family: var(--secondary-font);
   padding: var(--section-padding);
+  letter-spacing: 1rem;
 }
