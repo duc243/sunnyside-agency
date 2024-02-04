@@ -1,0 +1,95 @@
+/* -------------- Set Variables ----------- */
+:root {
+  /* colors  */
+  --blue-color: #3dbeff;
+  --hover-blue-color: #6eceff;
+  --yellow-color: #ffd302;
+  --pink-color: #fe7261;
+  --blade-color: #5fa799;
+  --white-color: #fcfffd;
+  --black-color: #1a1e27;
+
+  /* font size */
+  --default-fontSize: 1.15rem;
+  --title-fontSize: 2rem;
+  --menu-item-fontSize: var(--default-fontSize);
+
+  /* padding */
+  --default-padding: 2rem 4rem;
+  --button-padding: 0.8rem 1.6rem;
+
+  /* Font Family */
+  --primary-font: "Barlow", sans-serif;
+  --secondary-font: "Fraunces", serif;
+
+  /* Border */
+  --default-border-radius: 30px;
+}
+
+/* ---------------- Reset all style --------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--black-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style: none;
+}
+
+/* ---------------------- Header --------- */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--blue-color);
+  padding: var(--default-padding);
+}
+
+.header__logo {
+  font-size: var(--title-fontSize);
+  color: var(--white-color);
+  font-weight: 600;
+  font-family: var(--primary-font);
+}
+
+.nav {
+  width: 30%;
+
+  height: 100%;
+}
+
+.nav__list {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.nav__item {
+  font-family: var(--primary-font);
+  color: var(--white-color);
+  padding: var(--button-padding);
+  border-radius: var(--default-border-radius);
+  transition: all 0.2s ease-in-out;
+}
+
+.nav__item--white-bg {
+  background-color: var(--white-color);
+  color: var(--black-color);
+}
+
+.nav__item:hover {
+  background-color: var(--hover-blue-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
