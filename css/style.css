@@ -9,6 +9,7 @@
   --white-color: #fcfffd;
   --black-color: #1a1e27;
   --black-variant-color: #83828a;
+  --black-degraded: #26554d;
 
   /* font size */
   --default-fontSize: 1.15rem;
@@ -124,6 +125,7 @@ li {
 .about {
   display: flex;
   flex-wrap: wrap;
+  margin: 0;
 }
 
 .about__description,
@@ -160,4 +162,58 @@ li {
 
 .about__image-img {
   width: 100%;
+}
+
+/* Expertise */
+
+.expertise__container {
+  display: flex;
+}
+
+.expertise {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 50%;
+  height: 90vh;
+}
+
+.expertise__description {
+  padding: var(--description-padding);
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.expertise__title {
+  font-family: var(--secondary-font);
+  font-size: var(--section-title);
+  font-weight: 900;
+  margin-bottom: 2rem;
+  color: var(--black-degraded);
+}
+
+.experise__text {
+  font-family: var(--primary-font);
+  color: var(--black-degraded);
+}
+
+.expertise--bg-apple {
+  background-image: url(./../images/desktop/image-graphic-design.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.expertise--bg-orange {
+  background-image: url(./../images/desktop/image-photography.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
