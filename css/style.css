@@ -219,3 +219,23 @@ li {
   background-position: center center;
   background-size: cover;
 }
+
+/* ------------------ Responsive ---------------------  */
+
+@media screen and (max-width: 1024px) {
+  .nav__list {
+    display: none;
+  }
+  .nav__hamburger {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .nav__list {
+    display: flex;
+  }
+  .nav__hamburger {
+    display: none;
+  }
+}
