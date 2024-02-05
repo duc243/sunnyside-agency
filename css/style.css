@@ -157,9 +157,15 @@ li {
 
 .about__link {
   font-family: var(--secondary-font);
+}
+
+.about__link--color-yellow {
   box-shadow: 0 8px 5px 1px var(--yellow-color);
 }
 
+.about__link--color-pink {
+  box-shadow: 0 8px 5px 1px var(--pink-color);
+}
 .about__image-img {
   width: 100%;
   height: 100%;
