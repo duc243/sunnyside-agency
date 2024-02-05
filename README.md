@@ -28,5 +28,6 @@ Voici la maquette de la vue mobile
 
 La maquette est accessible dans le dossier `images/design/`
 
-Licence
+## Licence
+
 Ce projet est sous licence MIT.
