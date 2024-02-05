@@ -23,7 +23,7 @@ cd sunnyside-landing-page
 
 ## Maquette du projet
 
-Voici la maquette de la vue mobile
+### Voici la maquette de la vue mobile
 ![Sonny and Mariel high fiving.](images/design/mobile-design.jpg)
 
 La maquette est accessible dans le dossier `images/design/`
