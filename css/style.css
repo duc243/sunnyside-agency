@@ -226,6 +226,22 @@ li {
   background-size: cover;
 }
 
+/* Testimonies */
+
+.testimonies {
+  padding: var(--section-padding);
+}
+
+.testimonies__title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: var(--secondary-font);
+  color: var(--black-variant-color);
+  font-size: 1.3rem;
+  letter-spacing: 0.6rem;
+}
+
 /* ------------------ Responsive ---------------------  */
 
 @media screen and (max-width: 1024px) {
