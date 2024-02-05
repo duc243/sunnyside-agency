@@ -19,7 +19,7 @@
 
   /* padding */
   --default-padding: 2rem 4rem;
-  --button-padding: 0.8rem 1.6rem;
+  --button-padding: 0.8rem 1rem;
   --section-padding: 9rem 0;
   --description-padding: 10rem;
 
@@ -199,7 +199,7 @@ li {
   color: var(--black-degraded);
 }
 
-.experise__text {
+.expertise__text {
   font-family: var(--primary-font);
   color: var(--black-degraded);
 }
