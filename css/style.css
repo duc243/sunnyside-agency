@@ -32,6 +32,21 @@
 
   /* Transition */
   --transition: all 0.2s ease-in-out;
+
+  /* Responsive */
+  @media screen and (max-width: 1024px) {
+    /* padding */
+    --default-padding: 1rem;
+    --button-padding: 0.8rem 1rem;
+    --section-padding: 5rem 0;
+    --description-padding: 10rem;
+
+    /* font size */
+    --default-fontSize: 1.15rem;
+    --title-fontSize: 2rem;
+    --menu-item-fontSize: var(--default-fontSize);
+    --section-title: 2rem;
+  }
 }
 
 /* ---------------- Reset all styles --------*/
@@ -344,6 +359,15 @@ li {
   }
   .nav__hamburger {
     display: block;
+  }
+  .nav {
+    text-align: right;
+  }
+  .hero {
+    background-image: url(./../images/mobile/image-header.jpg);
+    height: 70vh;
+    padding: 0 1rem;
+    text-align: center;
   }
 }
 
