@@ -281,6 +281,20 @@ li {
   color: #83828a;
 }
 
+/* Galleries */
+
+.gallery {
+  display: flex;
+}
+
+.gallery__item {
+  flex-basis: 25%;
+}
+
+.gallery__picture {
+  width: 100%;
+}
+
 /* ------------------ Responsive ---------------------  */
 
 @media screen and (max-width: 1024px) {
