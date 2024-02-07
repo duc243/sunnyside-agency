@@ -410,7 +410,14 @@ li {
   }
   .expertise__container{
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
+  }
+  .expertise{
+    height: 100%;
+  }
+  .expertise__description{
+    padding-top: 80%;
+    align-items: end;
   }
   .testimonies__container{
     flex-direction: column;
