@@ -368,12 +368,12 @@ li {
   .about__text, .testimonie__quote, .expertise__text  {
     font-size: 1.5rem;
   }
-  .footer__list {
-    width: 50%;
-  }
   .gallery{
     display: grid;
     grid-template-columns: 50% 50%;
+  }
+  .footer__list {
+    width: 50%;
   }
 }
 
@@ -422,9 +422,12 @@ li {
   .testimonies__container{
     flex-direction: column;
   }
-  @media screen and (max-width: 425px) {
-    .testimonies__container {
-      padding: 2rem;
-    }
+}
+@media screen and (max-width: 425px) {
+  .testimonies__container {
+    padding: 2rem;
+  }
+  .footer__list {
+    width: 80%;
   }
 }
