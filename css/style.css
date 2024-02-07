@@ -371,6 +371,10 @@ li {
   .footer__list {
     width: 50%;
   }
+  .gallery{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
 }
 
 @media screen and (min-width: 768px) {
