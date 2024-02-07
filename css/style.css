@@ -150,7 +150,6 @@ li {
 
 .about {
   display: flex;
-  flex-wrap: wrap;
   margin: 0;
 }
 
@@ -272,12 +271,12 @@ li {
   padding: 3rem 6rem;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .testimonie {
   text-align: center;
   flex-basis: 20rem;
+  margin: 0 1rem;
 }
 
 .testimonie__avatar {
@@ -383,10 +382,6 @@ li {
   .about__text {
     font-size: 1.5rem;
   }
-
-  .about {
-    flex-direction: column-reverse;
-  }
 }
 
 @media screen and (min-width: 1025px) {
@@ -395,5 +390,15 @@ li {
   }
   .nav__hamburger {
     display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about{
+    flex-direction: column-reverse;
+  }
+  .no_revers, .expertise__container{
+    flex-direction: column;
+    height: 100vh;
   }
 }
