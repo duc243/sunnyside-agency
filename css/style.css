@@ -431,3 +431,46 @@ li {
     width: 80%;
   }
 }
+@media screen and (max-width: 200px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--blue-color);
+    padding: 0.1rem;
+  }
+  .header__logo {
+    font-size: 10px;
+  }
+  .hero {
+    background-image: url(./../images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 0;
+  }
+  .hero__title{
+    font-size: 20px;
+    letter-spacing: 0.1rem;
+  }
+  .testimonies__title, .about__title, .expertise__title {
+    font-size: 15px;
+    padding-bottom: 1rem;
+    letter-spacing: 0.1rem;
+  }
+  .hidden-in-watch{
+    display: none;
+  }
+  .about__text, .testimonie__quote, .expertise__text, .footer__item  {
+    font-size: 8px;
+  }
+  .about__link{
+    font-size: 10px;
+  }
+  .footer__list {
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+}
