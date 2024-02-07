@@ -361,6 +361,29 @@ li {
 /* ------------------ Responsive ---------------------  */
 
 @media screen and (max-width: 1024px) {
+
+  .about__title {
+    font-size: 3rem;
+  }
+  .about__text, .testimonie__quote, .expertise__text  {
+    font-size: 1.5rem;
+  }
+  .footer__list {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav__list {
+    display: flex;
+    margin-right: 10%;
+  }
+  .nav__hamburger {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .nav__list {
     display: none;
   }
@@ -375,30 +398,17 @@ li {
     padding: 9rem 1rem;
     text-align: center;
   }
-
-  .about__title {
-    font-size: 3rem;
-  }
-  .about__text {
-    font-size: 1.5rem;
-  }
-}
-
-@media screen and (min-width: 1025px) {
-  .nav__list {
-    display: flex;
-  }
-  .nav__hamburger {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 768px) {
   .about{
     flex-direction: column-reverse;
   }
-  .no_revers, .expertise__container{
+  .no_revers{
+    flex-direction: column;
+  }
+  .expertise__container{
     flex-direction: column;
     height: 100vh;
+  }
+  .testimonies__container{
+    flex-direction: column;
   }
 }
