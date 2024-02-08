@@ -352,6 +352,9 @@ li {
   justify-content: center;
   padding: 5rem 20% 0 20%;
 }
+.social>.footer__item{
+  padding: 0 0.4rem;
+}
 
 .footer__item {
   font-family: var(--primary-font);
@@ -460,6 +463,12 @@ li {
     padding-top: 0;
     height: 80vh;
   }
+  .social{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 20% 0 20%;
+  }
 }
 @media screen and (max-width: 200px) {
   .header {
@@ -511,5 +520,4 @@ li {
   .footer__list {
     justify-content: space-around;
   }
-  
 }
