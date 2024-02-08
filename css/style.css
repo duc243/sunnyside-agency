@@ -428,18 +428,20 @@ li {
     padding: 2rem;
   }
   .footer__list {
+    justify-content: space-around;
     width: 80%;
   }
 }
 @media screen and (max-width: 360px) {
+  html, header, main, footer{
+    width: 100%;
+  }
   .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: var(--blue-color);
-  }
-  .testimonie{
-    margin-bottom: 1rem;
+    padding: 0.1rem;
   }
   .hero {
     background-image: url(./../images/mobile/image-header.jpg);
@@ -448,6 +450,7 @@ li {
     background-size: cover;
     text-align: center;
     padding-top: 0;
+    height: 80vh;
   }
 }
 @media screen and (max-width: 200px) {
@@ -465,6 +468,7 @@ li {
     background-size: cover;
     text-align: center;
     padding-top: 0;
+    height: 100vh;
   }
   .hero__title{
     font-size: 20px;
@@ -480,8 +484,7 @@ li {
     padding: 0.5rem;
   }
   .testimonie{
-    margin-bottom: 0;
-    padding-bottom: 0;
+    flex-basis: 15rem;
   }
   .testimonies__title, .about__title, .expertise__title {
     font-size: 15px;
@@ -499,7 +502,6 @@ li {
   }
   .footer__list {
     justify-content: space-around;
-    width: 100%;
   }
   
 }
