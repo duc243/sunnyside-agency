@@ -340,10 +340,17 @@ li {
 }
 
 .footer__list {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social{
   width: 20%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  padding: 5rem 20% 0 20%;
 }
 
 .footer__item {
@@ -355,6 +362,7 @@ li {
 }
 
 .footer__item:hover {
+  display: inline-block;
   color: var(--white-color) !important;
 }
 
